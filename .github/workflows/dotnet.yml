@@ -16,6 +16,6 @@ jobs:
     
     # dotnet build and publish
     - name: Build with dotnet
-      run: dotnet build "app" --configuration Release
+      run: dotnet build "src" --configuration Release
     - name: dotnet publish
-      run: dotnet publish "app" -c Release -o dotnetcorewebapp 
+      run: dotnet publish "src" -c Release -o dotnetcorewebapp 
